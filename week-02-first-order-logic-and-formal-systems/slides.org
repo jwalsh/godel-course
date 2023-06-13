@@ -1,0 +1,62 @@
+#+TITLE: Week 2: First-Order Logic and Formal Systems
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil num:nil
+
+* Overview
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Introduction to first-order logic
+  - Syntax and semantics of first-order logic
+  - Formal systems: axioms, rules of inference, proofs
+  - Formalizing mathematical theories (e.g., Peano arithmetic)
+  - Coding exercises
+
+* Introduction to First-Order Logic
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Extension of propositional logic with quantifiers
+  - Allows for reasoning about objects and their properties
+  - Quantifiers: universal (\(\forall\)) and existential (\(\exists\))
+  - Example: \(\forall x, P(x)\)
+
+* Syntax and Semantics
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Syntax: rules for constructing well-formed formulas
+  - Semantics: rules for interpreting formulas
+  - Terms, predicates, and quantifiers
+  - Example: \(\forall x, P(x) \Rightarrow Q(x)\)
+
+* Formal Systems
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Axioms: foundational statements assumed to be true
+  - Rules of inference: rules for deriving new statements from existing ones
+  - Proofs: sequences of steps leading to a conclusion
+
+* Formalizing Mathematical Theories
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Example: Peano arithmetic
+  - Axioms for the natural numbers
+  - Defining addition, multiplication, and other operations
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Building a simple theorem prover for propositional logic in Python
+  - Representing first-order formulas and evaluating them
+
+* Summary and Next Steps
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - We learned the basics of first-order logic and formal systems
+  - Next topic: Computability and Turing machines
+  - Coding exercises to reinforce concepts

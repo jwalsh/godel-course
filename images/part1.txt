@@ -1,0 +1,1 @@
+Visualize the concept of propositional logic and truth tables with symbols and logical operators.

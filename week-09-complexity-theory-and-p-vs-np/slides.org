@@ -1,0 +1,64 @@
+#+TITLE: Week 9: Complexity Theory and P vs NP
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 9 of our Mathematical Logic Course!
+- This week, we'll explore Complexity Theory and the P vs NP problem.
+- We'll cover the following topics:
+  - Introduction to computational complexity theory
+  - P, NP, and NP-complete classes
+  - P vs NP problem: statement and significance
+
+* Computational Complexity Theory
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is computational complexity theory?
+- Measuring the computational resources needed to solve problems
+- Time complexity and space complexity
+- Big-O notation and analyzing algorithmic efficiency
+
+* P, NP, and NP-Complete Classes
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Understanding the class P: problems solvable in polynomial time
+- Understanding the class NP: problems verifiable in polynomial time
+- The class NP-complete: hardest problems in NP
+- Examples of NP-complete problems
+
+* The P vs NP Problem
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Statement of the P vs NP problem
+- Why is the P vs NP problem important?
+- Consequences of P = NP or P ≠ NP
+- Open questions and the Clay Mathematics Institute's prize
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- Complexity Theory and its impact on computer science
+- The significance of the P vs NP problem
+- Next week, we'll explore Set Theory and the Continuum Hypothesis
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Implementing and analyzing algorithms for NP-complete problems in Python
+- Exploring the concept of polynomial-time reductions

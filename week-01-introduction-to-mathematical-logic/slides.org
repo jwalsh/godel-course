@@ -1,0 +1,66 @@
+#+TITLE: Week 1: Introduction to Mathematical Logic
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil num:nil
+
+* Overview
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - What is mathematical logic?
+  - Propositional logic: syntax and semantics
+  - Truth tables and logical equivalences
+  - Coding exercises
+
+* What is Mathematical Logic?
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Study of formal systems in logic and mathematics
+  - Provides a foundation for understanding mathematical proofs
+  - A way to study formal languages and their interpretations
+
+* Propositional Logic
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Basic building blocks: propositions, connectives, and truth values
+  - Examples of propositional formulas:
+    - \( P \)
+    - \( P \land Q \)
+    - \( P \lor \neg Q \)
+  - Syntax: rules for constructing well-formed formulas
+
+* Truth Tables
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - A way to represent the truth values of propositional formulas
+  - Columns represent propositions and connectives
+  - Rows represent all possible assignments of truth values
+  - Example: truth table for \( P \land Q \)
+
+* Logical Equivalences
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Two formulas are logically equivalent if they have the same truth values
+  - Examples of logical equivalences:
+    - De Morgan's laws
+    - Distributive laws
+    - Identity laws
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - Implementing truth tables in Python
+  - Evaluating logical expressions
+  - Exploring logical equivalences
+
+* Summary and Next Steps
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+  - We learned the basics of propositional logic
+  - Next week: First-order logic and formal systems
+  - Coding exercises to reinforce concepts

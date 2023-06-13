@@ -1,0 +1,62 @@
+#+TITLE: Week 11: Model Theory and Nonstandard Models
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 11 of our Mathematical Logic Course!
+- This week, we'll explore Model Theory and Nonstandard Models.
+- We'll cover the following topics:
+  - Introduction to model theory: structures and interpretations
+  - Nonstandard models of arithmetic
+
+* Model Theory: Structures and Interpretations
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is model theory?
+- Formal definition of structures and interpretations
+- Understanding the relationship between syntax and semantics in logic
+- Examples of structures and models
+
+* Nonstandard Models of Arithmetic
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Introduction to nonstandard models of arithmetic
+- The concept of nonstandard natural numbers
+- Henkin constructions and the compactness theorem
+- Understanding the properties of nonstandard models
+
+* Gödel's Incompleteness Theorems Revisited
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- The role of nonstandard models in Gödel's Incompleteness Theorems
+- Understanding the limitations of formal systems
+- Exploring the connections between model theory and incompleteness
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- Model theory and its role in mathematical logic
+- Nonstandard models and their significance
+- Next week, we'll have a Course Summary and work on the Final Project
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Implementing structures and interpretations in Python
+- Exploring nonstandard models and their properties through coding exercises

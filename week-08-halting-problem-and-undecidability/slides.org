@@ -1,0 +1,60 @@
+#+TITLE: Week 8: Halting Problem and Undecidability
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 8 of our Mathematical Logic Course!
+- This week, we'll explore the Halting Problem and Undecidability.
+- We'll cover the following topics:
+  - Statement and proof of the Halting Problem's undecidability
+  - Reductions and other undecidable problems
+
+* The Halting Problem
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is the Halting Problem?
+- Formal definition of the Halting Problem
+- Understanding the significance of the Halting Problem in computability theory
+
+* Undecidability of the Halting Problem
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Proof sketch of the undecidability of the Halting Problem
+- The paradox of the self-referential machine
+- Understanding the implications of undecidability
+
+* Reductions and Other Undecidable Problems
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- The concept of reductions between problems
+- Examples of problems that are reducible to the Halting Problem
+- Exploring a variety of undecidable problems in computer science
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- The Halting Problem and its undecidability
+- Understanding the limits of algorithmic computation
+- Next week, we'll explore Complexity Theory and P vs NP
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Exploring examples of undecidable problems in Python
+- Understanding the concept of reductions through coding exercises

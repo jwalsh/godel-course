@@ -1,0 +1,1 @@
+Illustrate the self-reference and paradoxical nature of Gödel's First Incompleteness Theorem using mathematical symbols.

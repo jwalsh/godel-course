@@ -1,0 +1,63 @@
+#+TITLE: Week 7: Church-Turing Thesis and Lambda Calculus
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 7 of our Mathematical Logic Course!
+- This week, we'll explore the Church-Turing Thesis and Lambda Calculus.
+- We'll cover the following topics:
+  - Church-Turing Thesis: statement and implications
+  - Introduction to lambda calculus
+
+* Church-Turing Thesis
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is the Church-Turing Thesis?
+- Alonzo Church and Alan Turing's contributions to computability theory
+- The equivalence of Turing machines, lambda calculus, and recursive functions
+- Implications of the Church-Turing Thesis for the limits of computation
+
+* Lambda Calculus
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is lambda calculus?
+- Formalization of lambda calculus: syntax and semantics
+- Lambda expressions, abstraction, and application
+- Examples of lambda expressions and their evaluation
+
+* Reductions and Combinators
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Reduction strategies in lambda calculus
+- Normal order, applicative order, and normal forms
+- Introduction to combinatory logic and combinators
+- Examples of combinators and their use in lambda calculus
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- Church-Turing Thesis and its foundational role in computer science
+- Lambda calculus and its expressive power
+- Next week, we'll explore the Halting Problem and Undecidability
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Implementing lambda expressions and basic evaluation rules in Python
+- Exploring the expressive power of lambda calculus through examples

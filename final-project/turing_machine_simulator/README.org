@@ -1,0 +1,122 @@
+* Turing Machine Simulator
+
+This project implements a simple Turing machine simulator.
+
+** Turing Machine Simulator Graph (turing_machine.dot)
+
+#+BEGIN_SRC dot
+digraph turing_machine {
+    rankdir=LR;
+    node [shape=circle];
+    q0 [label="q0"];
+    q1 [label="q1"];
+    qH [label="qH", shape=doublecircle];
+
+    q0 -> q0 [label="1 / 1, R"];
+    q0 -> q1 [label="0 / 1, R"];
+    q1 -> qH [label="0 / 1, R"];
+}
+#+END_SRC
+
+The DOT file specifies the states and transitions of the Turing machine in a directed graph format. In this graph, q0, q1, and qH are the states of the Turing machine. The arrows represent the transitions, and the labels on the arrows indicate the read symbol, write symbol, and move direction (e.g., "1 / 1, R" means reading a "1", writing a "1", and moving right).
+
+The following image is a graphical representation of the Turing machine:
+
+[[file:turing_machine.png]]
+
+** Background
+
+A Turing machine is a theoretical model of computation that is capable of simulating any computer algorithm. It consists of a tape divided into cells, a read/write head, and a finite set of states. The Turing machine performs operations according to a set of transition rules, which define how to move between states based on the symbol read from the tape.
+
+The Turing machine simulator implemented in this project allows users to define a custom Turing machine using command-line parameters, including the initial tape input, the states, and the transition function. Users can observe the behavior of the Turing machine as it processes the input tape according to the specified transition function.
+
+** Exercise
+
+As an exercise, you can experiment with different Turing machine configurations by modifying the --tape, --states, and --transition-function parameters. Observe how the Turing machine behaves and try to design a Turing machine that recognizes specific patterns in the input tape. For example, you can create a Turing machine that accepts input strings containing an equal number of "1"s and "0"s.
+
+** Solution
+
+To create a Turing machine that recognizes input strings with an equal number of "1"s and "0"s, we need to design a transition function that alternates between counting "1"s and "0"s. If the Turing machine successfully processes the entire input tape without getting stuck in an undefined transition, and the number of "1"s and "0"s is equal, it will reach an accepting state.
+
+The transition function for such a Turing machine can be specified as follows:
+
+#+begin_example
+q0,1,q1,1,R;q1,0,q2,0,R;q2,1,q3,1,R;q3,0,q0,0,R
+#+end_example
+
+In this example, q0 and q1 are states used for counting "1"s, and q2 and q3 are states used for counting "0"s. The accepting state can be defined as a halting state with no outgoing transitions. Experiment with this transition function using the Turing machine simulator and observe how the machine behaves for different input tapes.
+
+** Usage
+
+To run the Turing machine simulator, use the following command:
+
+
+#+begin_src sh
+python cli.py --tape "1100" --states "q0,q1,qH" --transition-function "q0,1,q0,1,R;q0,0,q1,1,R;q1,0,qH,1,R"
+#+end_src
+
+
+*** Parameters
+
+- ~--tape~: Initial tape input for the Turing machine (e.g., "1100").
+- ~--states~: Comma-separated list of states for the Turing machine (e.g., "q0,q1,qH").
+- ~--transition-function~: Transition function for the Turing machine (e.g., "q0,1,q0,1,R;q0,0,q1,1,R;q1,0,qH,1,R").
+
+
+
+
+* Turing Machine Simulator Examples
+
+** Example 1: Binary Incrementer
+   - Description: This Turing machine accepts a binary string representing a non-negative integer, increments the binary number by 1, and prints the result on the tape.
+   - Example Input: ~1011~ (represents the number 11 in binary)
+   - Example Output: ~1100~ (represents the number 12 in binary)
+   - Command:
+   #+BEGIN_SRC sh
+   python cli.py --tape "1011" --states "q0,q1,qH" --transition-function "q0,0,q0,0,R;q0,1,q1,0,R;q1,0,q1,1,L;q1,1,q1,0,L;q1,_,qH,1,R"
+   #+END_SRC
+   - Notes: The Turing machine starts in state ~q0~ and scans the tape from left to right. When it reads ~1~, it changes to state ~q1~ and writes ~0~. It then moves left to find the rightmost ~0~, increments it to ~1~, and halts.
+
+** Example 2: Binary Parity Checker
+   - Description: This Turing machine checks whether the input binary string contains an even number of ~1~s.
+   - Example Input: ~1101~
+   - Example Output: ~EVEN~ if the input has an even number of ~1~s, ~ODD~ otherwise.
+   - Command:
+   #+BEGIN_SRC sh
+   python cli.py --tape "1101" --states "q0,q1,qEVEN,qODD" --transition-function "q0,0,q0,0,R;q0,1,q1,1,R;q1,0,q1,0,R;q1,1,q0,1,R;q0,_,qEVEN,_,R;q1,_,qODD,_,R"
+   #+END_SRC
+   - Notes: The Turing machine alternates between states ~q0~ and ~q1~ each time it reads a ~1~. It halts in state ~qEVEN~ or ~qODD~ depending on the parity of ~1~s.
+
+** Example 3: Binary Palindrome Checker
+   - Description: This Turing machine checks whether the input binary string is a palindrome.
+   - Example Input: ~11011~
+   - Example Output: ~YES~ if the input is a palindrome, ~NO~ otherwise.
+   - Command:
+   #+BEGIN_SRC sh
+   python cli.py --tape "11011" --states "q0,q1,q2,q3,q4,qYES,qNO" --transition-function "q0,0,q1,_,R;q0,1,q2,_,R;q0,_,qYES,_,R;q1,1,q1,1,R;q1,0,q1,0,R;q1,_,q3,_,L;q2,1,q2,1,R;q2,0,q2,0,R;q2,_,q4,_,L;q3,0,q0,_,R;q4,1,q0,_,R;q3,1,qNO,_,R;q3,_,qNO,_,R;q4,0,qNO,_,R;q4,_,qNO,_,R"
+   #+END_SRC
+   - Notes: The Turing machine matches and erases the first and last characters of the input. It repeats this process until all characters are erased or a mismatch is found.
+
+** Example 4: Unary Addition
+
+   - Description: This Turing machine adds two unary numbers separated by a delimiter # and prints the result in unary.
+   - Example Input: 111#11 (represents 3 + 2 in unary)
+   - Example Output: 11111 (represents 5 in unary)
+   - Command:
+    #+BEGIN_SRC sh
+    python cli.py --tape "111#11" --states "q0,q1,q2,q3" --transition-function "q0,1,q0,1,R;q0,#,q1,,R;q1,1,q1,1,R;q1,,q2,1,L;q2,1,q2,1,L;q2,#,q2,#,L;q2,,q3,1,R;q3,,q3,_,R"
+    #+END_SRC
+   - Notes: The Turing machine scans the tape from left to right until it finds the delimiter #. It then moves the 1s from the right side of the delimiter to the left side one by one until there are no more 1s to move. The result is the sum of the two unary numbers.
+
+** Example 5: Unary Decrementer
+
+   - Description: This Turing machine decrements a unary number by 1. The input is assumed to be greater than zero.
+   - Example Input: 1111 (represents the number 4 in unary)
+   - Example Output: 111 (represents the number 3 in unary)
+   - Command:
+    #+BEGIN_SRC sh
+    python cli.py --tape "1111" --states "q0,q1,qH" --transition-function "q0,1,q0,1,R;q0,,q1,,L;q1,1,qH,_,R"
+    #+END_SRC
+   - Notes: The Turing machine scans the tape from left to right to find the rightmost 1. It then erases the rightmost 1 to decrement the unary number by 1 and halts. The output tape contains the decremented unary number.
+
+Note: The provided transition functions are a simplified representation of the functions needed for these Turing machines. In practice, additional states and transitions may be needed to handle edge cases and ensure correct behavior.

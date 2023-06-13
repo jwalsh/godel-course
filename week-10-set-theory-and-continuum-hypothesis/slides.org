@@ -1,0 +1,70 @@
+#+TITLE: Week 10: Set Theory and the Continuum Hypothesis
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 10 of our Mathematical Logic Course!
+- This week, we'll explore Set Theory and the Continuum Hypothesis.
+- We'll cover the following topics:
+  - Introduction to set theory: Zermelo-Fraenkel axioms
+  - The Continuum Hypothesis: statement and independence
+
+* Set Theory: Zermelo-Fraenkel Axioms
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is set theory?
+- Zermelo-Fraenkel axioms: foundation of modern set theory
+- Understanding axiomatic set theory and its role in mathematics
+- Examples of sets, operations, and relations
+
+* Infinite Sets: Countable and Uncountable
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Introduction to infinite sets
+- Distinction between countable and uncountable sets
+- Examples of countable and uncountable sets
+- Cardinality of infinite sets: aleph numbers
+
+* The Continuum Hypothesis
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Statement of the Continuum Hypothesis (CH)
+- Understanding the significance of the CH in set theory
+- Exploring the concept of the cardinality of the continuum
+
+* Independence of the Continuum Hypothesis
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Gödel and Cohen's work on the independence of the CH
+- Understanding the concept of independence in mathematical logic
+- Implications for set theory and mathematical reasoning
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- Set theory and its foundational role in mathematics
+- The Continuum Hypothesis and its independence
+- Next week, we'll explore Model Theory and Nonstandard Models
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Implementing set operations and exploring infinite sets in Python
+- Understanding the Continuum Hypothesis through coding exercises

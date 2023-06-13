@@ -1,0 +1,163 @@
+* Explorations in Mathematical Logic and Computability
+:PROPERTIES:
+:CUSTOM_ID: mathematical-logic
+:END:
+
+"Explorations in Mathematical Logic and Computability" is a thought-provoking course that delves into the foundational concepts of mathematical logic, formal systems, and computability theory. With an emphasis on Gödel's Incompleteness Theorems, students will be introduced to the limitations and expressiveness of formal systems, as well as their profound impact on mathematics, philosophy, and computer science. The course also explores related topics such as the Church-Turing Thesis, undecidability, and computational complexity. Through hands-on coding exercises in Python and an interactive final project, students will gain a deeper appreciation for the interplay between logic, mathematics, and computation.
+
+** Part 1: Introduction and Background
+:PROPERTIES:
+:CUSTOM_ID: part-1-introduction-and-background
+:END:
+
+#+ATTR_ORG: :width 400
+[[file:images/part1.png]]
+
+*** Week 1: Introduction to Mathematical Logic
+:PROPERTIES:
+:CUSTOM_ID: week-1-introduction-to-mathematical-logic
+:END:
+- History and motivation for studying mathematical logic
+- Propositional logic: syntax and semantics
+- Truth tables and logical equivalences
+- *Coding exercises*: Implementing truth tables and evaluating logical
+  expressions in Python
+
+*** Week 2: First-Order Logic and Formal Systems
+:PROPERTIES:
+:CUSTOM_ID: week-2-first-order-logic-and-formal-systems
+:END:
+- Introduction to first-order logic: syntax and semantics
+- Formal systems: axioms, rules of inference, and proofs
+- Formalizing mathematical theories (e.g., Peano arithmetic)
+- *Coding exercises*: Building a simple theorem prover for propositional
+  logic in Python
+
+*** Week 3: Computability and Turing Machines
+:PROPERTIES:
+:CUSTOM_ID: week-3-computability-and-turing-machines
+:END:
+- Introduction to computability theory
+- Turing machines: definition and examples
+- Decidable and undecidable problems
+- *Coding exercises*: Implementing and simulating Turing machines in
+  Python
+
+** Part 2: Gödel's Incompleteness Theorems
+:PROPERTIES:
+:CUSTOM_ID: part-2-gödels-incompleteness-theorems
+:END:
+
+#+ATTR_ORG: :width 400
+[[file:images/part2.png]]
+
+*** Week 4: Gödel Numbering and Representability
+:PROPERTIES:
+:CUSTOM_ID: week-4-gödel-numbering-and-representability
+:END:
+- Introduction to Gödel numbering
+- Representability of recursive functions in formal systems
+- *Coding exercises*: Generating Gödel numbers for formulas and exploring
+  representability in Python
+
+*** Week 5: Gödel's First Incompleteness Theorem
+:PROPERTIES:
+:CUSTOM_ID: week-5-gödels-first-incompleteness-theorem
+:END:
+- Statement and proof sketch of Gödel's First Incompleteness Theorem
+- Construction of a self-referential sentence (Gödel sentence)
+- Consequences and implications of the theorem
+- *Coding exercises*: Constructing self-referential sentences in Python
+
+*** Week 6: Gödel's Second Incompleteness Theorem
+:PROPERTIES:
+:CUSTOM_ID: week-6-gödels-second-incompleteness-theorem
+:END:
+- Statement and proof sketch of Gödel's Second Incompleteness Theorem
+- Consequences for formal systems and consistency proofs
+- *Coding exercises*: Exploring the limitations of consistency proofs in
+  Python
+
+** Part 3: Related Topics and Extensions
+:PROPERTIES:
+:CUSTOM_ID: part-3-related-topics-and-extensions
+:END:
+
+#+ATTR_ORG: :width 400
+[[file:images/part3.png]]
+
+*** Week 7: Church-Turing Thesis and Lambda Calculus
+:PROPERTIES:
+:CUSTOM_ID: week-7-church-turing-thesis-and-lambda-calculus
+:END:
+- Church-Turing Thesis: statement and implications
+- Introduction to lambda calculus
+- *Coding exercises*: Implementing lambda expressions and basic evaluation
+  rules in Python
+
+*** Week 8: Halting Problem and Undecidability
+:PROPERTIES:
+:CUSTOM_ID: week-8-halting-problem-and-undecidability
+:END:
+- Statement and proof of the Halting Problem's undecidability
+- Reductions and other undecidable problems
+- *Coding exercises*: Exploring examples of undecidable problems in Python
+
+*** Week 9: Complexity Theory and P vs NP
+:PROPERTIES:
+:CUSTOM_ID: week-9-complexity-theory-and-p-vs-np
+:END:
+- Introduction to computational complexity theory
+- P, NP, and NP-complete classes
+- P vs NP problem: statement and significance
+- *Coding exercises*: Implementing and analyzing algorithms for
+  NP-complete problems in Python
+
+*** Week 10: Set Theory and the Continuum Hypothesis
+:PROPERTIES:
+:CUSTOM_ID: week-10-set-theory-and-the-continuum-hypothesis
+:END:
+- Introduction to set theory: Zermelo-Fraenkel axioms
+- The Continuum Hypothesis: statement and independence
+- *Coding exercises*: Implementing set operations and exploring infinite
+  sets in Python
+
+*** Week 11: Model Theory and Nonstandard Models
+:PROPERTIES:
+:CUSTOM_ID: week-11-model-theory-and-nonstandard-models
+:END:
+- Introduction to model theory: structures and interpretations
+- Nonstandard models of arithmetic
+- *Coding exercises*: Exploring nonstandard models and their properties in
+  Python
+
+*** Week 12: Course Summary and Final Project
+:PROPERTIES:
+:CUSTOM_ID: week-12-course-summary-and-final-project
+:END:
+- Review of key concepts and themes from the course
+- Final project: Implementing an interactive tool or simulation related
+  to course topics
+- Building a repository of course materials and coding exercises
+
+** Course Repository
+:PROPERTIES:
+:CUSTOM_ID: course-repository
+:END:
+The course repository will be organized as follows:
+
+  - ~README.org~: An overview of the course and instructions on how to use the repository.
+  - ~week-01-introduction-to-mathematical-logic~, ~week-02-first-order-logic-and-formal-systems~, etc.: Directories for each week of the course, containing lecture notes, slides, and coding exercises.
+  - ~final-project/~: A directory for the final project, including instructions and starter code.
+  - ~resources/~: A directory containing additional reading materials, references, and useful links.
+
+Each week's directory will include the following:
+
+  - ~lecture_notes.org~ (or ~.org~): Detailed notes on the material covered in each week's lectures.
+  - ~slides.org~: Presentation slides for each week's lectures.
+  - ~exercises/~: A subdirectory containing Python scripts with coding exercises, explanations, and sample solutions.
+  - ~solutions/~: A subdirectory containing Python scripts with solutions to the coding exercises (provided after each week's assignment).
+
+At the end of the course, students will have the opportunity to complete a final project in which they will implement an interactive tool or simulation related to one of the course topics. The final project will allow students to apply what they have learned throughout the course and explore a topic of interest in more depth.
+
+To facilitate students' access to the course materials, we will create a Git repository named "mathematical-logic" that will contain all the course content, including lecture notes, slides, exercises, and the final project. Students will be able to clone the repository and work through the exercises at their own pace.

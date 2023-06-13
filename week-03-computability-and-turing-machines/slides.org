@@ -1,0 +1,67 @@
+#+TITLE: Week 3: Computability and Turing Machines
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 3 of our Mathematical Logic Course!
+- This week, we'll explore the concepts of computability and Turing machines.
+- We'll cover the following topics:
+  - Introduction to computability theory
+  - Turing machines: definition and examples
+  - Decidable and undecidable problems
+
+* Computability Theory
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What does it mean for a problem to be computable?
+- Alan Turing and his contributions to computability theory
+- Formal definition of an algorithm
+- Church-Turing thesis
+
+* Turing Machines
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is a Turing machine?
+- Components of a Turing machine: tape, head, states, transition function
+- Formal definition of a Turing machine
+- Examples of Turing machines
+  - Turing machine for addition
+  - Turing machine for recognizing palindromes
+
+* Decidability and Undecidability
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Decidable problems: problems that can be solved by a Turing machine
+- Undecidable problems: problems that cannot be solved by any Turing machine
+- Examples of decidable problems
+- Examples of undecidable problems
+  - The Halting Problem
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- Introduction to computability and Turing machines
+- Understanding the limits of computation
+- Next week, we'll dive into Gödel numbering and representability
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Implementing and simulating Turing machines in Python
+- Exploring examples of decidable and undecidable problems

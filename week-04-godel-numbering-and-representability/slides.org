@@ -1,0 +1,63 @@
+#+TITLE: Week 4: Gödel Numbering and Representability
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 4 of our Mathematical Logic Course!
+- This week, we'll explore Gödel numbering and the concept of representability.
+- We'll cover the following topics:
+  - Introduction to Gödel numbering
+  - Representability of recursive functions in formal systems
+  - Examples and applications
+
+* Gödel Numbering
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What is Gödel numbering?
+- Kurt Gödel's contributions to mathematical logic
+- Encoding formulas, proofs, and sequences as natural numbers
+- The significance of Gödel numbering in the Incompleteness Theorems
+
+* Representability
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What does it mean for a function to be representable in a formal system?
+- Recursive functions and their representability
+- Formalizing mathematical theories (e.g., Peano Arithmetic)
+- The concept of a complete and consistent formal system
+
+* Examples of Representability
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Example: Representing addition and multiplication in a formal system
+- Example: Representing the successor function in Peano Arithmetic
+- Example: Representing the prime function in a formal system
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- Gödel numbering and the concept of representability
+- The foundational role of Gödel numbering in Gödel's Incompleteness Theorems
+- Next week, we'll dive into Gödel's First Incompleteness Theorem
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Generating Gödel numbers for formulas and exploring representability in Python
+- Implementing recursive functions and testing their representability

@@ -1,0 +1,59 @@
+#+TITLE: Week 6: Gödel's Second Incompleteness Theorem
+#+AUTHOR: Mathematical Logic Course
+#+OPTIONS: toc:nil
+
+* Introduction
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Welcome to Week 6 of our Mathematical Logic Course!
+- This week, we'll explore Gödel's Second Incompleteness Theorem and its implications.
+- We'll cover the following topics:
+  - Statement and proof sketch of Gödel's Second Incompleteness Theorem
+  - Consequences for formal systems and consistency proofs
+
+* Gödel's Second Incompleteness Theorem
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Statement of the theorem
+- What does it mean for a formal system to be unable to prove its own consistency?
+- Building on Gödel's First Incompleteness Theorem
+
+* Proof Sketch
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- A brief overview of the proof of Gödel's Second Incompleteness Theorem
+- The role of the Gödel sentence and representability
+- Demonstrating the unprovability of consistency
+
+* Implications and Consequences
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- What are the implications of Gödel's Second Incompleteness Theorem?
+- Limits on proving consistency within formal systems
+- The impact on foundational mathematics and philosophy
+
+* Summary and Conclusion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Recap of the topics covered in this lecture
+- Gödel's Second Incompleteness Theorem and its significance
+- Next week, we'll explore related topics such as Church-Turing Thesis and Lambda Calculus
+
+* Questions and Discussion
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Do you have any questions about today's lecture?
+- Let's discuss the material and explore any questions you may have
+
+* Coding Exercises
+:PROPERTIES:
+:NOTER_DOCUMENT: notes.org
+:END:
+- Exploring the limitations of consistency proofs in Python
+- Understanding the relationship between the First and Second Incompleteness Theorems
